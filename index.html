@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -34,7 +33,7 @@
           <ul id="apply_menu" class="sub_menu">
             <li><a href="#">Submenu 1</a></li>
             <li><a href="#">Submenu</a></li>
-            <li><a href="# ">Submenu</a></li>
+            <li><a href="#">Submenu</a></li>
           </ul>
           </li>
         <li class="contact"><a href="/about/about_program/">Contact</a></li>
@@ -57,51 +56,40 @@
         </fieldset>
   
         <fieldset>
-          <div>
-            <p class="info1">Info 1</p>
-            <p class="elements">
+          <div class="info1">Info 1</div>
+          
+          <div class="elements">
+            <p>
               <label for="id_payment_method_0">Choose A Payment Plan</label>
               <label for="id_payment_method_0"><input checked="checked" type="radio" id="id_payment_method_0" value="ot" name="payment_method" /> A</label>
               <label for="id_payment_method_1"><input type="radio" id="id_payment_method_1" value="emi" name="payment_method" /> B</label>
               <span class="error">Error</span>
             </p>
-            <p class="info2">Info 2</p>
+            <p class="submit">
+              <input name="copy" type="submit" value="Save" />
+            </p>
           </div>
-        
-          <div class="submit">
-            <p class="info1">Info 1</p>
-            <p class="elements"><input name="copy" type="submit" value="Save" /></p>
-            <p class="info2">Info 2</p>
-          </div>
-        
+          
+          <div class="info2">Info 2</div>
         </fieldset>
   
         <fieldset>
-        
-          <div>
-            <p class="info1">Info 1</p>
-            <p class="elements">
+          <div class="info1">Info 1</div>
+          <div class="elements">
+            <p>
               <label for="address_1">Address Line 1</label>
               <input id="address_1" type="text" maxlength="400" />
               <span class="error">Error</span>
             </p>
-            <p class="info2">Info 2</p>
-          </div>
 
-          <div>
-            <p class="info1">Info 1</p>
-            <p class="elements">
+            <p>
               <label for="address_2">Address Line 2</label>
               <input id="address_2" type="text" maxlength="400" />
               <span class="error inline_error">Inline error</span>
             </p>
-            <p class="info2">Info 2</p>
-          </div>
         
-          <div class="">
-            <p class="info1">Info 1</p>
-            <p class="elements">
-              <label for="card_type">Card Type</label>
+            <p class="">
+              <label  for="card_type">Card Type</label>
               <select id="card_type">
                 <option value="" selected="selected">---------</option>
                 <option value="amex">American Express</option>
@@ -109,48 +97,32 @@
                 <option value="mscd">MasterCard</option>
               </select>
             </p>
-            <p class="info2">Info 2</p>
-          </div>
           
-          <div class="checkboxes">
-            <p class="info1">Info 1</p>
-            <p class="elements">
-              <input type="checkbox" id="agree">
+            <p class="checkboxes">
+              <input type="checkbox" id="agree" />
               <label for="agree">I agree</label>
             </p>
-            <p class="info2">Info 2</p>
           </div>
-          
-        
-        </fieldset>
-    
+          <div class="info2">Info 2</div>
+       </fieldset>
 
 
         <fieldset class="inline">
-        
-          <div>
-            <p class="info1">Info 1</p>
-            <p class="elements">
-              <label for="address_1b">Address Line 1</label>
-              <input id="address_1b" type="text" maxlength="400" />
-              <span class="error">Error</span>
-            </p>
-            <p class="info2">Info 2</p>
-          </div>
+          <div class="info1">Info 1</div>
+          <div class="elements">
+          <p>
+            <label for="address_1b">Address Line 1</label>
+            <input id="address_1b" type="text" maxlength="400" />
+            <span class="error">Error</span>
+          </p>
 
-          <div>
-            <p class="info1">Info 1</p>
-            <p class="elements">
-              <label for="address_2b">Address Line 2</label>
-              <input id="address_2b" type="text" maxlength="400" />
-              <span class="error inline_error">Inline error</span>
-            </p>
-            <p class="info2">Info 2</p>
-          </div>
+          <p>
+            <label for="address_2b">Address Line 2</label>
+            <input id="address_2b" type="text" maxlength="400" />
+            <span class="error inline_error">Inline error</span>
+          </p>
       
-        <div class="">
-          <p class="info1">Info 1</p>
-          <p class="elements">
+          <p class="">
             <label for="card_type_b">Card Type</label>
             <select id="card_type_b">
               <option value="" selected="selected">---------</option>
@@ -159,28 +131,24 @@
               <option value="mscd">MasterCard</option>
             </select>
           </p>
-          <p class="info2">Info 2</p>
-        </div>
       
-        <div class="checkboxes">
-          <p class="info1">Info 1</p>
-          <p class="elements">
-            <input type="checkbox" id="agree_b">
+          <p class="checkboxes">
+            <input type="checkbox" id="agree_b" />
             <label for="agree_b">I agree</label>
           </p>
-          <p class="info2">Info 2</p>
-        </div>
-        
+          </div>
+          <div class="info2">Info 2</div>
         </fieldset>
 
         <fieldset class="inline last">
-          <div class="submit">
-            <p class="info1">Info</p>
-            <p class="elements">
+          <div class="info1">Info 1</div>
+          <div class="elements">
+            <p class="submit">
               <a href="#">Cancel</a>
               <input name="copy" type="submit" value="Submit" />
             </p>
           </div>
+          <div class="info2">Info 2</div>
         </fieldset>
         
       </form>
