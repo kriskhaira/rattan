@@ -3,9 +3,6 @@
    Rattan CSS Framework
    http://github.com/kriskhaira/rattan
 
-   * Inspired by the Blueprint CSS Framework, ALA and other resources
-   * Licensed under the GPL
-
 ----------------------------------------------------------------------- */
 
 *, body { margin:0; padding:0; }
@@ -182,6 +179,10 @@ form .inline label {
   }
   form .inline .inline_error {
     clear:both; display: block;
+  }
+  form .inline .submit .elements {
+    width:auto;
+    margin-left: 120px;
   }
 
 /* Elements */
