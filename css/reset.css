@@ -1,0 +1,321 @@
+/* -----------------------------------------------------------------------
+
+   Rattan CSS Framework
+   http://github.com/kriskhaira/rattan
+
+   * Inspired by the Blueprint CSS Framework, ALA and other resources
+   * Licensed under the GPL
+
+----------------------------------------------------------------------- */
+
+*, body { margin:0; padding:0; }
+body { color:#333; font-size: 0.8125em; }
+body { font-family: "Lucida Grande", "Verdana", "Helvetica", "Arial", sans-serif; }
+table, p, ul, ol, h1, h2, h3, h4, h5, h6, hr, img, pre, .block { margin-bottom:1em; }
+blockquote {
+  margin-left:1.5em;
+}
+
+ul, ol { padding-left:1em; }
+li { margin:0; margin-left:1em; }
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom:0;
+}
+ol ol {
+  list-style: lower-alpha;
+}
+
+h1 { font-size: 3.1em;}
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.1em; }
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a { color: blue }
+a:hover { color: red }
+
+
+pre, code {
+  font-family: Consolas, Courier, monospace;
+}
+pre.print_r {
+  margin:100px 0;
+  padding:4px;
+  border:4px solid lightgreen;
+}
+
+/* Notices */
+.notice, .success, .critical {
+	background: #ffcc00;
+	color: #000;
+	display: block;
+	line-height: 140%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+.success {
+	background: green;
+	color: #fff;
+}
+.critical {
+  background: darkred;
+	color: #fff;
+}
+
+/* Images */
+img { padding:0; margin:0; }
+a img { border: none; background:none; }
+img.center { display: block; margin:0 auto; }
+img.right, img.left { padding:4px; display:inline; }
+img.right { margin: 0 0 2px 10px; }
+img.left { margin: 0 7px 2px 0; }
+.right { float: right; }
+.left { float: left; }
+
+/* Debugging */
+.fix { color:red; font-weight:bold; }
+
+/* Tables */
+
+table {
+  border-collapse:collapse;
+  margin-left:2px;
+}
+table,
+table td,
+table th {
+  border:1px solid #ccc;
+  padding:0.3em;
+}
+th {
+  text-align:left;
+  padding-right:10px;
+}
+table td, table tr, td, th {
+  vertical-align:top;
+}
+
+div.admin {
+  margin-bottom:20px;
+  clear:both; display:block; overflow:hidden;
+}
+
+p.admin, span.admin {
+  font-size:0.9em;
+  font-style:italic;
+  color:brown;
+}
+
+
+/**
+ * FORMS
+ * Anything with 'form-item' is meant for Drupal
+**/
+
+
+form fieldset {
+  margin:0; padding:0; border:0;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  border-bottom:1px solid #ccc;
+}
+
+  form fieldset.last {
+    border-bottom:0;
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+  
+form .instructions {
+  font-style: italic;
+}
+
+form div {
+  clear:both;
+}
+
+  form .info1,
+  form .info2 {
+    width:20%;
+    color: #666;
+    font-size: 80%;
+  }
+  form .info1 {
+    float: left;
+  }
+  form .info2 {
+    float: right;
+  }
+  form .elements {
+    width:60%;
+    float: left;
+  }
+  form .error {
+    color: red;
+    font-weight: bold;
+    font-size: 90%;
+    display: block;
+  }
+  form .inline_error {
+    display:inline;
+  }
+
+form label {
+  display:block;
+  font-weight:bold;
+}
+
+form .inline label {
+  display: block;
+  float: left;
+  width:120px;
+  text-align: right;
+  margin-right:4px;  
+}
+  form .inline .error {
+    margin-left:124px;
+  }
+  form .inline .inline_error {
+    clear:both; display: block;
+  }
+
+/* Elements */
+
+  form .elements input,
+  form .elements a {
+    margin-right: 4px;
+  }
+  form .checkboxes label {
+    display: inline;
+  }
+
+textarea {
+  margin-bottom: 1em;
+}
+
+
+/**
+ * STRUCTURE
+ *
+**/
+
+#wrap {
+  width:960px;
+  margin:0 auto;
+  clear:both; display:block; overflow:hidden;
+}
+#content {
+  line-height:1.6;
+  width:940px;
+  margin:0 auto;
+  margin-bottom:50px;
+  clear:both; display:block; overflow:hidden;
+}
+#primary {
+  float: left;
+  width:58%;
+}
+#secondary {
+  width:38%;
+  float: right;
+}
+
+/**
+ * ACTIONS
+ *
+**/
+
+ul.actions {
+  list-style:none; margin-left:0;
+}
+ul.actions li {
+  display: inline;
+}
+
+ul.admin_actions { list-style:none; margin-left:0; }
+ul.admin_actions a {
+  color: #900;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/**
+ * PAGINATION
+ *
+**/
+
+.pagination {
+  padding:2px;
+  font-weight:bold;
+  padding-left:0;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.pagination a {
+  padding:2px 3px;
+}
+
+.pagination span.pages,
+.pagination span.current,
+.pagination span.extend,
+.pagination a {
+  margin-right:10px
+}
+
+.pagination span.extend {
+  display:none;
+}
+
+.pagination span.pages {
+  border-right: 1px dashed #ccc;
+  padding-right:10px ;
+  color:#777;
+  font-weight:normal;
+}
+
+.pagination span.current {
+  font-weight:normal;
+  color:#777;
+}
+
+
+/**
+ * FOOTER
+ *
+**/
+
+#footer {
+  margin-bottom: 1em;
+  clear:both; display:block; overflow:hidden;
+}
+
+  #footer ul {
+    padding-left: 0;
+  }
+  #footer ul li {
+    margin-left: 0;
+    list-style: none;
+  }
+
+/**
+ * HEADER
+ *
+**/
+
+#header {
+  margin-bottom:20px;
+}
+
+
+/**
+ * DEBUGGING PURPOSES
+ *
+**/
+
+.clear { clear:both; display:block; }

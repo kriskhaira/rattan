@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rattan CSS Test</title>
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+<link type="text/css" rel="stylesheet" media="screen" href="css/reset.css?cssv=rw3t3" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/layout.css?cssv=rw3t3" />
+<!--[if lte IE 6]><link href="css/ie6.css?cssv=rw3t3" media="screen" rel="Stylesheet" type="text/css" /><![endif]-->
+
+</head>
+
+<body class="">
+<div id="wrap">
+
+  <div id="header">
+    <a id="logo" href="#"><img src="img/rattan_logo.gif" alt="" /></a>
+     
+    <div id="menu">  
+      <ul id="main_menu">
+        <li class="home"><a href="/enrollment/">Home</a></li>
+        <li class="about">
+          <a href="#">About</a>
+          <ul id="about_menu" class="sub_menu">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+          </ul>
+          </li>
+        <li class="apply">
+          <a href="#">Portfolio</a>
+          <ul id="apply_menu" class="sub_menu">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu</a></li>
+            <li><a href="# ">Submenu</a></li>
+          </ul>
+          </li>
+        <li class="contact"><a href="/about/about_program/">Contact</a></li>
+      </ul>
+    </div> <!-- /menu -->
+    
+  </div> <!-- /header -->
+  
+  <div id="content">
+    <div class="notice">Notice</div>
+    <div class="success">Success</div>
+    <div class="critical">Critical</div>
+    <div id="primary">
+    
+      <form method="post" action="" id="payment">
+        <h2>Form</h2>
+  
+        <fieldset class="instructions">
+          <p>These are form instructions. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </fieldset>
+  
+        <fieldset>
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_payment_method_0">Choose A Payment Plan</label>
+              <label for="id_payment_method_0"><input checked="checked" type="radio" id="id_payment_method_0" value="ot" name="payment_method" /> A</label></li>
+              <label for="id_payment_method_1"><input type="radio" id="id_payment_method_1" value="emi" name="payment_method" /> B</label></li>
+              <span class="error">Error</span>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div class="submit">
+            <p class="info1">Info 1</p>
+            <p class="elements"><input name="copy" type="submit" value="Save"></p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+        </fieldset>
+  
+        <fieldset>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_address_line1">Address Line 1</label>
+              <input id="id_address_line1" type="text" name="address_line1" maxlength="400" />
+              <span class="error">Error</span>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_address_line1">Address Line 2</label>
+              <input id="id_address_line1" type="text" name="address_line1" maxlength="400" />
+              <span class="error inline_error">Inline error</span>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_month">Expiry Month</label>
+              <select name="expiry_month" id="id_expiry_month">
+                <option value="" selected="selected">---------</option>
+                <option value="11">November</option>
+                <option value="10">October</option>
+                <option value="12">December</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="01">January</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_year">Expiry Year</label>
+              <select name="expiry_year" id="id_expiry_year">
+                <option value="" selected="selected">---------</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_year">Expiry Year</label>
+              <select name="expiry_year" id="id_expiry_year">
+                <option value="" selected="selected">---------</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div class="">
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_card_type">Card Type</label>
+              <select name="card_type" id="id_card_type">
+                <option value="" selected="selected">---------</option>
+                <option value="amex">American Express</option>
+                <option value="visa">Visa</option>
+                <option value="mscd">MasterCard</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+        </fieldset>
+    
+
+
+        <fieldset class="inline">
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_address_line1">Address Line 1</label>
+              <input id="id_address_line1" type="text" name="address_line1" maxlength="400" />
+              <span class="error">Error</span>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_address_line1">Address Line 2</label>
+              <input id="id_address_line1" type="text" name="address_line1" maxlength="400" />
+              <span class="error inline_error">Inline error</span>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_month">Expiry Month</label>
+              <select name="expiry_month" id="id_expiry_month">
+                <option value="" selected="selected">---------</option>
+                <option value="11">November</option>
+                <option value="10">October</option>
+                <option value="12">December</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="01">January</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_year">Expiry Year</label>
+              <select name="expiry_year" id="id_expiry_year">
+                <option value="" selected="selected">---------</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div>
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_expiry_year">Expiry Year</label>
+              <select name="expiry_year" id="id_expiry_year">
+                <option value="" selected="selected">---------</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+          <div class="">
+            <p class="info1">Info 1</p>
+            <p class="elements">
+              <label for="id_card_type">Card Type</label>
+              <select name="card_type" id="id_card_type">
+                <option value="" selected="selected">---------</option>
+                <option value="amex">American Express</option>
+                <option value="visa">Visa</option>
+                <option value="mscd">MasterCard</option>
+              </select>
+            </p>
+            <p class="info2">Info 2</p>
+          </div>
+        
+        </fieldset>
+    
+
+
+        <fieldset class="last">
+          <div class="submit">
+            <p class="info1"></p>
+            <p class="elements">
+              <a href="#">Cancel</a>
+              <input name="copy" type="submit" value="Submit">
+            </p>
+            <p class="info2"></p>
+          </div>
+        </fieldset>
+
+
+  
+      </form>
+
+    </div> <!-- /primary -->
+    
+    <div id="secondary">
+      
+      <div class="block">
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        <img src="img/sample.gif" class="left" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img src="img/sample.gif" class="right" />
+        <ul>
+          <li>Item</li>
+          <li>
+            Item
+            <ul>
+              <li>Item</li>
+              <li>Item</li>
+            </ul>
+          </li>
+          <li>Item</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        
+        
+      </div>
+      
+      
+      
+      
+    </div>
+  </div> <!-- /content -->
+
+  <div id="footer">
+    <a class="footer_link" href="/enrollment/">Home</a> | <a class="footer_link" href="/about/about_instructors">About</a> | <a class="footer_link" href="/enrollment/form">Apply</a> | <a class="footer_link" href="/about/about_program">Contact</a><br />
+    <a class="term" href="/terms/">Terms of Use</a> | <a class="term" href="/privacy/">Privacy Statement</a><br />
+    <span class="grey">Copyright © 2009 All rights reserved</span>
+  </div>
+
+</div> <!-- /wrap -->    
+</body>
+</html>
