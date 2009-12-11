@@ -167,6 +167,22 @@ form label {
   font-weight:bold;
 }
 
+
+/* Elements */
+
+form .elements input,
+form .elements a {
+  margin-right: 4px;
+}
+form .checkboxes label {
+  display: inline;
+}
+
+textarea {
+  margin-bottom: 1em;
+}
+
+/* Inline */
 form .inline label {
   display: block;
   float: left;
@@ -180,24 +196,18 @@ form .inline label {
   form .inline .inline_error {
     clear:both; display: block;
   }
-  form .inline .submit .elements {
-    width:auto;
-    margin-left: 120px;
-  }
-
-/* Elements */
-
-  form .elements input,
-  form .elements a {
-    margin-right: 4px;
-  }
-  form .checkboxes label {
+  
+  form .inline .checkboxes label {
     display: inline;
+    float:none;
+  }
+  /* move these to the right to align them */
+  form .inline .submit .elements,
+  form .inline .checkboxes .elements {
+    padding-left: 124px;
+    width:auto;
   }
 
-textarea {
-  margin-bottom: 1em;
-}
 
 
 /**
