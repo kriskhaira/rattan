@@ -220,10 +220,23 @@ form .inline label {
   margin:0 auto;
   clear:both; display:block; overflow:hidden;
 }
+#header {
+  margin-bottom:20px;
+}
+#footer {
+  margin-bottom: 1em;
+  clear:both; display:block; overflow:hidden;
+}
+
+  #footer ul {
+    padding-left: 0;
+  }
+  #footer ul li {
+    margin-left: 0;
+    list-style: none;
+  }
 #content {
   line-height:1.6;
-  width:940px;
-  margin:0 auto;
   margin-bottom:50px;
   clear:both; display:block; overflow:hidden;
 }
@@ -235,6 +248,8 @@ form .inline label {
   width:38%;
   float: right;
 }
+
+
 
 /**
  * ACTIONS
@@ -296,32 +311,6 @@ ul.admin_actions a {
 }
 
 
-/**
- * FOOTER
- *
-**/
-
-#footer {
-  margin-bottom: 1em;
-  clear:both; display:block; overflow:hidden;
-}
-
-  #footer ul {
-    padding-left: 0;
-  }
-  #footer ul li {
-    margin-left: 0;
-    list-style: none;
-  }
-
-/**
- * HEADER
- *
-**/
-
-#header {
-  margin-bottom:20px;
-}
 
 
 /**
