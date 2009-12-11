@@ -20,6 +20,10 @@ h2. Setup Instructions
 
 Look at the example (index.html) and figure it out yourself. Go ahead, learn some HTML.
 
+h2. "Rattan"?
+
+_The name for various species of climbing palms that are widely used in Asia to make furniture_
+
 h2. Bugs and feature requests
 
 Click on the "Issues tab":http://github.com/kriskhaira/rattan/issues up there.
