@@ -5,15 +5,20 @@ Welcome to Rattan, a simple CSS framework inspired by Blueprint and other CSS fr
 h2. Features
 
 * A stylesheet for printing
-* Perfected browser CSS reset
-* A stylesheet for printing
+* Browser CSS reset
+* Form styles
+* Notice, error and message style - great for development frameworks incl. Django and Ruby on Rails
 * No bloat
 
-h2. Features which Rattan does not or may never have
+h2. Features left out deliberately
 
-* No grid system - because these things shouldn't be difficult to do in the first place. There is #primary and #secondary, though.
-* No typographic baseline. Is it really worth the extra KB?
+* Grid system - because these things shouldn't be difficult to do in the first place. There is #primary and #secondary, though.
+* Typographic baseline. Is it really worth the extra KB?
 
 h2. Setup Instructions
 
 Look at the example (index.html) and figure it out yourself. Go ahead, learn some HTML.
+
+h2. Bugs and feature requests
+
+Click on the "Issues tab":http://github.com/kriskhaira/rattan/issues up there.
