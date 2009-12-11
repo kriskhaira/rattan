@@ -1,0 +1,19 @@
+h1. Rattan CSS Framework Readme
+
+Welcome to Rattan, a simple CSS framework inspired by Blueprint and other CSS frameworks but without the fat. 
+
+h2. Features
+
+* A stylesheet for printing
+* Perfected browser CSS reset
+* A stylesheet for printing
+* No bloat
+
+h3. Features which Rattan does not or may never have
+
+* No grid system - because these things shouldn't be difficult to do in the first place. There is #primary and #secondary, though.
+* No typographic baseline. Is it really worth the extra KB?
+
+h2. Setup Instructions
+
+Look at the example (index.html) and figure it out yourself. Go ahead, learn some HTML.
