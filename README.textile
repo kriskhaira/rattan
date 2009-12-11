@@ -9,6 +9,7 @@ h2. Features
 * Form styles
 * Notice, error and message style - great for development frameworks incl. Django and Ruby on Rails
 * No bloat
+* Tested in Firefox, Safari, Google Chrome, IE8, IE6
 
 h2. Features left out deliberately
 
