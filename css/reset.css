@@ -157,15 +157,19 @@ form fieldset {
     display:inline;
   }
   form .error {
-    margin-bottom: 0;
     color: red;
   }
 
 form label {
   display:block;
   font-weight:bold;
+  margin-bottom: 0;
 }
-
+form ul,
+form ul li {
+  margin:0; padding:0;
+  list-style: none;
+}
 
 /* Elements */
 
