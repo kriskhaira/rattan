@@ -7,7 +7,8 @@ h2. Features
 * A stylesheet for printing
 * Browser CSS reset
 * Form styles
-* Notice, error and message style - great for development frameworks incl. Django and Ruby on Rails
+* Notice, error and message style
+* Growing support for HTML elements and selectors used in default Django (e.g. errorlist) and Drupal installations
 * No bloat
 * Tested in Firefox, Safari, Google Chrome, IE8, IE6
 * The maximum layout width (which you can easily override), is 980px, not 960px as used by most grid CSS frameworks. Why? Because 980px maximizes horizontal real estate more and you can easily make your own grid system with 980px.
