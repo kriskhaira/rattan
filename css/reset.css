@@ -194,7 +194,8 @@ form .inline label {
   margin-right:4px;  
 }
   form .inline .error,
-  form .inline .errorlist {
+  form .inline .errorlist /* django */
+  {
     margin-left:124px;
   }
   form .inline .inline_error {
