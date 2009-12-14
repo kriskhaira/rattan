@@ -147,17 +147,17 @@ form fieldset {
   form .elements {
     float: left;
   }
-  form .error {
+  form .error,
+  form .errorlist /* django */
+  {
     color: red;
     font-weight: bold;
     font-size: 90%;
     display: block;
+    clear:both; display:block; overflow:hidden;
   }
   form .inline_error {
     display:inline;
-  }
-  form .error {
-    color: red;
   }
 
 form label {
@@ -193,7 +193,8 @@ form .inline label {
   text-align: right;
   margin-right:4px;  
 }
-  form .inline .error {
+  form .inline .error,
+  form .inline .errorlist {
     margin-left:124px;
   }
   form .inline .inline_error {
