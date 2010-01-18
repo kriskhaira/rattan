@@ -93,6 +93,9 @@ th {
   text-align:left;
   padding-right:10px;
 }
+thead, th, tfoot {
+    font-weight: bold;
+}
 table td, table tr, td, th {
   vertical-align:top;
 }
