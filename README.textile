@@ -29,3 +29,7 @@ _The name for various species of climbing palms that are *sturdy, light and flex
 h2. Bugs and feature requests
 
 Click on the "Issues tab":http://github.com/kriskhaira/rattan/issues up there.
+
+h2. TODO
+
+* Change P tags in the form to DIVs to be more compatible with Django errorlists
