@@ -112,6 +112,27 @@ p.admin, span.admin {
   color:brown;
 }
 
+/**
+ * TABS
+ *
+**/
+
+#tabs-wrapper {
+  border-bottom: 1px solid #e9eff3;
+}
+#tabs-wrapper ul {
+    padding-left: 0;
+    clear:both; display:block; overflow:hidden;
+}
+#tabs-wrapper ul li {
+    list-style: none;
+    margin-left: 0;
+    float: left;
+    margin-right: 1em;
+}
+
+
+
 
 /**
  * FORMS
