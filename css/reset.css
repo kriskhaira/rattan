@@ -118,14 +118,19 @@ p.admin, span.admin {
  *
 **/
 
-#tabs-wrapper {
-  border-bottom: 1px solid #e9eff3;
+#tabs-wrapper,
+.links,
+.terms {
 }
-#tabs-wrapper ul {
+#tabs-wrapper ul,
+.links ul,
+.terms ul {
     padding-left: 0;
     clear:both; display:block; overflow:hidden;
 }
-#tabs-wrapper ul li {
+#tabs-wrapper ul li,
+.links ul li,
+.terms ul li {
     list-style: none;
     margin-left: 0;
     float: left;
