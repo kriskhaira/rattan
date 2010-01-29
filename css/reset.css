@@ -121,24 +121,33 @@ p.admin, span.admin {
 #tabs-wrapper,
 .links,
 .terms {
+    clear:both; display:block; overflow:hidden;
 }
 #tabs-wrapper ul,
 .links ul,
-.terms ul {
+.terms ul.
+ul.links {
     padding-left: 0;
     clear:both; display:block; overflow:hidden;
 }
 #tabs-wrapper ul li,
 .links ul li,
-.terms ul li {
+.terms ul li,
+ul.links li {
     list-style: none;
     margin-left: 0;
     float: left;
     margin-right: 1em;
 }
 
+/**
+ * MENU
+ *
+**/
 
-
+.menu ul.links li {
+    float: none;
+}
 
 /**
  * FORMS
