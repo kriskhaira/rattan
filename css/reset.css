@@ -51,11 +51,11 @@ pre.print_r {
 .messages, .status /* Drupal */ {
 	background: #ffcc00;
 	color: #000;
-	display: block;
 	line-height: 140%;
 	padding: 0.8em;
 	margin: 0;
 	margin-bottom: 1em;
+	clear:both; display:block; overflow:hidden;
 }
 .success {
 	background: green;
@@ -123,14 +123,14 @@ p.admin, span.admin {
 .terms {
     clear:both; display:block; overflow:hidden;
 }
-#tabs-wrapper ul,
+ul.tabs,
 .links ul,
 .terms ul.
 ul.links {
     padding-left: 0;
     clear:both; display:block; overflow:hidden;
 }
-#tabs-wrapper ul li,
+ul.tabs li,
 .links ul li,
 .terms ul li,
 ul.links li {
