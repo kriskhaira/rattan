@@ -350,6 +350,19 @@ ul.admin_actions a {
   color:#777;
 }
 
+/* Drupal pagination */
+
+.pager {
+    padding-left: 0;
+    clear:both; display:block; overflow:hidden;
+}
+.pager li {
+    margin-left: 0;
+    list-style: none;
+    float: left;
+    margin-right: 1em;
+}
+
 /**
  * DEBUGGING PURPOSES
  *
