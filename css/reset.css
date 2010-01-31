@@ -367,6 +367,15 @@ ul.admin_actions a {
 }
 
 /**
+ * DRUPAL VIEWS
+ *
+**/
+
+.views-row {
+    margin-bottom: 2em;
+}
+
+/**
  * DEBUGGING PURPOSES
  *
 **/
