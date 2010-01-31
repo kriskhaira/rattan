@@ -361,6 +361,10 @@ ul.admin_actions a {
     list-style: none;
     float: left;
     margin-right: 1em;
+    font-size: 110%;
+}
+.pager li a {
+    font-weight: bold;
 }
 
 /**
