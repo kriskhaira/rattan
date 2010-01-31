@@ -263,18 +263,6 @@ form .inline label {
 #header {
   margin-bottom:20px;
 }
-#footer {
-  margin-bottom: 1em;
-  clear:both; display:block; overflow:hidden;
-}
-
-  #footer ul {
-    padding-left: 0;
-  }
-  #footer ul li {
-    margin-left: 0;
-    list-style: none;
-  }
 #content {
   line-height:1.6;
   margin-bottom:50px;
@@ -288,6 +276,33 @@ form .inline label {
   width:38%;
   float: right;
 }
+
+/**
+ * FOOTER
+ *
+**/
+#footer {
+  margin-bottom: 1em;
+  clear:both; display:block; overflow:hidden;
+}
+
+  #footer ul {
+    padding-left: 0;
+  }
+  #footer ul li {
+    margin-left: 0;
+    list-style: none;
+  }
+
+/* Drupal */
+#footer .menu {
+    text-align: right;
+}
+#footer .menu li {
+    float: left;
+    margin-right: 1em;
+}
+
 
 
 
