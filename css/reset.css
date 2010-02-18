@@ -125,7 +125,7 @@ p.admin, span.admin {
 }
 ul.tabs,
 .links ul,
-.terms ul.
+.terms ul,
 ul.links {
     padding-left: 0;
     clear:both; display:block; overflow:hidden;
@@ -325,6 +325,18 @@ ul.admin_actions a {
   font-size: 0.9em;
 }
 
+.views-field-edit-node {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.views-field-edit-node a {
+    opacity:0.5;
+}
+.views-field-edit-node a:hover {
+    opacity:1;
+}
+
 /**
  * PAGINATION
  *
@@ -382,11 +394,12 @@ ul.admin_actions a {
 }
 
 /**
- * DRUPAL VIEWS
+ * DRUPAL VIEWS AND NODES
  *
 **/
 
-.views-row {
+.views-row,
+.node {
     margin-bottom: 2em;
 }
 
