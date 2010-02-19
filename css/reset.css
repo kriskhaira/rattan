@@ -114,6 +114,15 @@ p.admin, span.admin {
 }
 
 /**
+ * DRUPAL PANELS
+ *
+**/
+
+.panel-display .panel-panel .inside {
+    margin:0;
+}
+
+/**
  * TABS
  *
 **/
