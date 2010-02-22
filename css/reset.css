@@ -197,6 +197,9 @@ form fieldset {
     float: left;
     width:60%;
   }
+  form .elements div {
+      margin-bottom: 4px;
+  }
   form .error,
   form .errorlist /* django */
   {
