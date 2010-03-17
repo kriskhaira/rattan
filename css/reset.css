@@ -226,8 +226,12 @@ form ul li {
 /* Elements */
 
 form .elements input,
-form .elements a {
+form .elements a,
+form button {
   margin-right: 4px;
+}
+button {
+    padding:4px;
 }
 form .checkboxes label {
   display: inline;
