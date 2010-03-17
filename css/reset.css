@@ -12,7 +12,6 @@ table, p, ul, ol, h1, h2, h3, h4, h5, h6, hr, img, pre, .block { margin-bottom:1
 blockquote {
   margin-left:1.5em;
 }
-.no
 ul, ol { padding-left:1em; }
 li { margin:0; margin-left:1em; }
 ul ul, ul ol, ol ul, ol ol {
