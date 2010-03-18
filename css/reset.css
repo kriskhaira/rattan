@@ -361,19 +361,20 @@ ul.admin_actions a {
   padding:2px;
   font-weight:bold;
   padding-left:0;
-  font-size: 1.4em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
-.pagination a {
-  padding:2px 3px;
+.pagination a,
+.pagination span.current {
+  padding:2px 1px;
 }
 
 .pagination span.pages,
 .pagination span.current,
 .pagination span.extend,
 .pagination a {
-  margin-right:10px
+  margin-right:6px
 }
 
 .pagination span.extend {
