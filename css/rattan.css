@@ -67,6 +67,7 @@ pre.print_r {
 
 .nodata {
     color: #444;
+    clear:both; display:block; overflow:hidden;
 }
 
 /* Images */
