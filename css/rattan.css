@@ -28,12 +28,12 @@ h4 { font-size: 1.6em; }
 h5 { font-size: 1.4em; }
 h6 { font-size: 1.1em; }
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0;
+  margin-bottom: 0.4em;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a { color: blue }
-a:hover { color: red }
+a:hover { color: red; text-decoration: none; }
 
 
 pre, code {
@@ -284,9 +284,12 @@ form .inline label {
   margin-bottom:20px;
 }
 #content {
-  line-height:1.6;
-  margin-bottom:50px;
-  clear:both; display:block; overflow:hidden;
+    margin-bottom:50px;
+    clear:both; display:block; overflow:hidden;
+}
+#content p,
+#content ul {
+    line-height:1.6;
 }
 #primary {
   float: left;
