@@ -425,6 +425,17 @@ ul.admin_actions a {
 }
 
 /**
+ * FACEBOX OVERRIDE
+ *
+**/
+
+#facebox table,
+#facebox table td,
+#facebox table th {
+    border:0;
+}
+
+/**
  * DEBUGGING PURPOSES
  *
 **/
