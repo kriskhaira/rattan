@@ -183,14 +183,16 @@ form fieldset {
   form .info1,
   form .info2 {
     width:20%;
-    color: #666;
-    font-size: 80%;
   }
   form .info1 {
     float: left;
   }
   form .info2 {
     float: right;
+  }
+  form .info1, form.info2, .formHint {
+      color: #666;
+      font-size: 80%;
   }
   
   form .instructions {
@@ -202,7 +204,7 @@ form fieldset {
     width:60%;
   }
   form .elements div {
-      margin-bottom: 4px;
+      margin-bottom: 1em;
   }
   form .error,
   form .errorlist /* django */
@@ -238,7 +240,8 @@ form button {
 button {
     padding:4px;
 }
-form .checkboxes label {
+form .checkboxes label,
+form .checkbox label {
   display: inline;
 }
 
@@ -258,7 +261,8 @@ form .inline label {
     clear:both; display: block;
   }
   
-  form .inline .checkboxes label {
+  form .inline .checkboxes label,
+  form .inline .checkbox label {
     display: inline;
     float:none;
   }
@@ -266,7 +270,9 @@ form .inline label {
   form .inline .error,
   form .inline .errorlist, /* django */
   form .inline .submit,
-  form .inline .checkboxes input {
+  form .inline .checkboxes input,
+  form .inline .checkbox input,
+  form .inline .formHint {
     margin-left: 124px;
   }
 
@@ -298,6 +304,11 @@ form .inline label {
 #secondary {
   width:38%;
   float: right;
+}
+
+
+#secondary .block a {
+    text-decoration: none;
 }
 
 /**
