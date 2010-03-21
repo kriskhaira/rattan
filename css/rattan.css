@@ -207,16 +207,13 @@ form fieldset {
       margin-bottom: 1em;
   }
   form .error,
-  form .errorlist /* django */
-  {
+  form .errorlist,
+  form .errorField {
     color: red;
     font-weight: bold;
     font-size: 90%;
     display: block;
     clear:both; display:block; overflow:hidden;
-  }
-  form .inline_error {
-    display:inline;
   }
 
 form label {
@@ -251,30 +248,34 @@ textarea {
 
 /* Inline */
 form .inline label {
-  display: block;
-  float: left;
-  width:120px;
-  text-align: right;
-  margin-right:4px;  
+    display: block;
+    float: left;
+    width:200px;
+    text-align: right;
+    margin-right:4px;  
 }
-  form .inline .inline_error {
-    clear:both; display: block;
-  }
-  
-  form .inline .checkboxes label,
-  form .inline .checkbox label {
-    display: inline;
-    float:none;
-  }
-  /* move these to the right to align them */
-  form .inline .error,
-  form .inline .errorlist, /* django */
-  form .inline .submit,
-  form .inline .checkboxes input,
-  form .inline .checkbox input,
-  form .inline .formHint {
-    margin-left: 124px;
-  }
+    form .inline .inline_error {
+        clear:both; display: block;
+    }
+
+    form .inline .checkboxes label,
+    form .inline .checkbox label {
+        display: inline;
+        float:none;
+    }
+    /* move these to the right to align them */
+    form .inline .error,
+    form .inline .errorlist, /* django */
+    form .inline .errorField, /* django */
+    form .inline .submit,
+    form .inline .checkboxes input,
+    form .inline .checkbox input,
+    form .inline .formHint {
+        margin-left: 204px;
+    }
+    form .inline_error {
+        display:inline;
+    }
 
 /**
  * STRUCTURE
