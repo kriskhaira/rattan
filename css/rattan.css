@@ -264,9 +264,9 @@ form .inline label {
         float:none;
     }
     /* move these to the right to align them */
-    form .inline .error,
+    form .inline p.error,
     form .inline .errorlist, /* django */
-    form .inline .errorField, /* django */
+    form .inline p.errorField, /* django */
     form .inline .submit,
     form .inline .checkboxes input,
     form .inline .checkbox input,
