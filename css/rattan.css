@@ -56,10 +56,10 @@ pre.print_r {
 	margin-bottom: 1em;
 	clear:both; display:block; overflow:hidden;
 	font-size: 80%;
-	font-weight: bold;
 }
 ul#messages {
     list-style: none;
+    font-weight: bold;
 }
 #messages li{
     margin-left: 0;
