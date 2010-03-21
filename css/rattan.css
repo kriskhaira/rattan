@@ -47,14 +47,22 @@ pre.print_r {
 
 /* Notices */
 .notice, .success, .critical,
-.messages, .status /* Drupal */ {
-	background: #ffcc00;
+.messages, .status, #messages /* Drupal */ {
+	background: #fc0;
 	color: #000;
 	line-height: 140%;
 	padding: 0.8em;
 	margin: 0;
 	margin-bottom: 1em;
 	clear:both; display:block; overflow:hidden;
+	font-size: 80%;
+	font-weight: bold;
+}
+ul#messages {
+    list-style: none;
+}
+#messages li{
+    margin-left: 0;
 }
 .success {
 	background: green;
