@@ -202,7 +202,6 @@ form fieldset {
   form .info1, form .info2, .formHint {
       color: #666;
       font-size: 80%;
-      margin-bottom: 0;
   }
   
   form .instructions {
@@ -303,7 +302,7 @@ form .inline label {
   margin-bottom:20px;
 }
 #content {
-    margin-bottom:50px;
+    margin-bottom:30px;
     clear:both; display:block; overflow:hidden;
 }
 #content p,
