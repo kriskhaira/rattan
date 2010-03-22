@@ -69,7 +69,8 @@ ul#messages {
 	background: green;
 	color: #fff;
 }
-.critical {
+.critical,
+.warning {
   background: darkred;
 	color: #fff;
 }
@@ -221,6 +222,7 @@ form fieldset {
       margin-bottom: 1em;
   }
   form .error,
+  form #errorMsg,
   form .errorlist,
   form .errorField {
     color: red;
@@ -277,6 +279,7 @@ textarea {
         float:none;
     }
     /* move these to the right to align them */
+    .inline #errorMsg,
     .inline p.error,
     .inline span.error,
     .inline .errorlist, /* django */
