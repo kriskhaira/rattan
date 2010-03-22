@@ -203,6 +203,9 @@ form fieldset {
       color: #666;
       font-size: 80%;
   }
+  form .submit a {
+      font-size: 80%;
+  }
   
   form .instructions {
     font-style: italic;
@@ -236,18 +239,17 @@ form ul li {
   list-style: none;
 }
 
-/* Elements */
 
 form .elements input,
 form .elements a,
-form button {
+button {
   margin-right: 4px;
 }
 button {
     padding:4px;
 }
-form .checkboxes label,
-form .checkbox label {
+.checkboxes label,
+.checkbox label {
   display: inline;
 }
 
@@ -256,37 +258,38 @@ textarea {
 }
 
 /* Inline */
-form .inline label {
+.inline label {
     display: block;
     float: left;
     width:200px;
     text-align: right;
     margin-right:4px;  
 }
-    form .inline .inline_error {
+    .inline .inline_error {
         clear:both; display: block;
     }
 
-    form .inline .checkboxes label,
-    form .inline .checkbox label {
+    .inline .checkboxes label,
+    .inline .checkbox label {
         display: inline;
         float:none;
     }
     /* move these to the right to align them */
-    form .inline p.error,
-    form .inline span.error,
-    form .inline .errorlist, /* django */
-    form .inline p.errorField, /* django */
-    form .inline .submit,
-    form .inline .checkboxes input,
-    form .inline .checkbox input,
-    form .inline .formHint,
-    form .inline .cke_editor_id_body {
+    .inline p.error,
+    .inline span.error,
+    .inline .errorlist, /* django */
+    .inline p.errorField, /* django */
+    .inline .submit,
+    .inline .checkboxes input,
+    .inline .checkbox input,
+    .inline .formHint,
+    .inline .cke_editor_id_body {
         margin-left: 204px;
     }
-    form .inline_error {
+    .inline_error {
         display:inline;
     }
+
 
 /**
  * STRUCTURE
