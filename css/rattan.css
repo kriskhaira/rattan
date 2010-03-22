@@ -453,7 +453,7 @@ ul.admin_actions a {
  *
 **/
 
-.meta, .counter {
+.meta, .counter, .help {
     font-size: 80%;
     color: #777;
 }
