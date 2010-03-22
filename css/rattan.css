@@ -278,7 +278,8 @@ form .inline label {
     form .inline .submit,
     form .inline .checkboxes input,
     form .inline .checkbox input,
-    form .inline .formHint {
+    form .inline .formHint,
+    form .inline .cke_editor_id_body {
         margin-left: 204px;
     }
     form .inline_error {
