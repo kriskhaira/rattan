@@ -1,26 +1,25 @@
 h1. Rattan CSS Framework
 
-Welcome to Rattan, a simple CSS framework inspired by Blueprint and other CSS frameworks but minus the fat. 
+This is Rattan CSS, a simple CSS framework inspired by Blueprint and other CSS frameworks but minus the fat. 
 
 h2. Features
 
 * A stylesheet for printing
 * Browser CSS reset
-* Form styles
-* Notice, error and message style
-* Growing support for HTML elements and selectors used in default Django (e.g. errorlist) and Drupal installations
+* Notice, error and message styles
+* Growing support for common form elements including those used in Django, django-uni-form and Drupal
 * No bloat
 * Tested in Firefox, Safari, Google Chrome, IE8, IE6
-* The maximum layout width (which you can easily override), is 980px, not 960px as used by most grid CSS frameworks. Why? Because 980px maximizes horizontal real estate more and you can easily make your own grid system with 980px.
+* The maximum layout width (which you can easily override), is 980px, instead of the common 960px to maximize the use of horizontal real estate
 
 h2. Features left out deliberately
 
-* Grid system - because these things shouldn't be difficult to do in the first place. There is #primary and #secondary, though.
-* Typographic baseline. Is it really worth the extra KB?
+* Grid system - these things shouldn't be difficult to do in the first place - but there are CSS definitions for #primary and #secondary.
+* Typographic baseline. Not worth the hassle in my opinion.
 
 h2. Setup Instructions
 
-Look at the example (index.html) and figure it out yourself. Go ahead, learn some HTML.
+Look at the example (index.html) and figure it out :)
 
 h2. "Rattan"?
 
@@ -28,8 +27,4 @@ _The name for various species of climbing palms that are *sturdy, light and flex
 
 h2. Bugs and feature requests
 
-Click on the "Issues tab":http://github.com/kriskhaira/rattan/issues up there.
-
-h2. TODO
-
-* Change P tags in the form to DIVs to be more compatible with Django errorlists
+Please submit bugs and feature requests in the "Issues":http://github.com/kriskhaira/rattan/issues section.

@@ -22,14 +22,15 @@ ol ol {
 }
 
 h1 { font-size: 2.3em;}
-h2 { font-size: 2.1em; }
-h3 { font-size: 1.9em; }
-h4 { font-size: 1.6em; }
-h5 { font-size: 1.4em; }
-h6 { font-size: 1.1em; }
-h1, h2, h3, h4, h5, h6 {
+h2 { font-size: 1.85em; }
+h3, legend { font-size: 1.5em; }
+h4 { font-size: 1.35em; }
+h5 { font-size: 1.24em; }
+h6 { font-size: 1.16em; }
+h1, h2, h3, h4, h5, h6, legend {
   margin-bottom: 0.4em;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 a { color: blue }
@@ -198,9 +199,10 @@ form fieldset {
   form .info2 {
     float: right;
   }
-  form .info1, form.info2, .formHint {
+  form .info1, form .info2, .formHint {
       color: #666;
       font-size: 80%;
+      margin-bottom: 0;
   }
   
   form .instructions {
@@ -273,6 +275,7 @@ form .inline label {
     }
     /* move these to the right to align them */
     form .inline p.error,
+    form .inline span.error,
     form .inline .errorlist, /* django */
     form .inline p.errorField, /* django */
     form .inline .submit,
@@ -309,10 +312,10 @@ form .inline label {
 }
 #primary {
   float: left;
-  width:58%;
+  width:70%;
 }
 #secondary {
-  width:38%;
+  width:25%;
   float: right;
 }
 
@@ -437,6 +440,17 @@ ul.admin_actions a {
 .pager li a {
     text-decoration: none;
 }
+
+/**
+ * META
+ *
+**/
+
+.meta, .counter {
+    font-size: 80%;
+    color: #777;
+}
+
 
 /**
  * DRUPAL VIEWS AND NODES
