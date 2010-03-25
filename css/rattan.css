@@ -7,22 +7,15 @@
 
 * { margin:0; padding:0; }
 body { color:#333; font-size: 0.8125em; }
-body { font-family: "Lucida Grande", "Verdana", "Helvetica", "Arial", sans-serif; }
+body { font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
 table, p, ul, ol, h1, h2, h3, h4, h5, h6, hr, img, pre, .block { margin-bottom:1em; }
-blockquote {
-  margin-left:1.5em;
-}
+blockquote { margin-left:1.5em; }
 ul, ol { padding-left:1em; }
 li { margin:0; margin-left:1em; }
-ul ul, ul ol, ol ul, ol ol {
-  margin-bottom:0;
-}
-ol ol {
-  list-style: lower-alpha;
-}
-dt {
-    font-weight: bold;
-}
+ul ul, ul ol, ol ul, ol ol { margin-bottom:0; }
+ol ol { list-style: lower-alpha; }
+dt { font-weight: bold; }
 
 h1 { font-size: 2.3em;}
 h2 { font-size: 1.85em; }
@@ -32,21 +25,18 @@ h5 { font-size: 1.24em; }
 h6 { font-size: 1.16em; }
 h1, h2, h3, h4, h5, h6, legend {
   margin-bottom: 0.4em;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Helvetica Neue", "Helvetica", "FreeSans", "Gargi_1.7", "Malayalam", Arial, sans-serif;
   font-weight: bold;
 }
 
 a { color: blue }
 a:hover { color: red; text-decoration: none; }
 
-
-pre, code {
-  font-family: Consolas, Courier, monospace;
-}
+pre, code { font-family: "Consolas", "Courier", "FreeMono", "Nimbus Mono L", monospace; }
 pre.print_r {
-  margin:100px 0;
-  padding:4px;
-  border:4px solid lightgreen;
+    margin:100px 0;
+    padding:4px;
+    border:4px solid lightgreen;
 }
 
 /* Notices */
@@ -74,7 +64,7 @@ ul#messages {
 }
 .critical,
 .warning {
-  background: darkred;
+    background: darkred;
 	color: #fff;
 }
 
@@ -179,9 +169,7 @@ ul.links li {
  * FORMS
  * Anything with 'form-item' is meant for Drupal
 **/
-form {
-    margin-bottom: 1em;
-}
+form { margin-bottom: 1em; }
 
 form fieldset {
   margin:0; padding:0; border:0;
