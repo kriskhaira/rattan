@@ -281,6 +281,20 @@ button {
     .inline_error {
         display:inline;
     }
+    
+    .compact label {
+        width:100px;
+    }
+    .inline .compact #errorMsg,
+    .inline .compact p.errorField,
+    .inline .compact .submit,
+    .inline .compact .checkboxes input,
+    .inline .compact .checkbox input,
+    .inline .compact .formHint,
+    .inline .cke_editor_id_body {
+        margin-left: 104px;
+    }
+    
 
 
 /**
