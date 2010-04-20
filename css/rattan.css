@@ -316,7 +316,8 @@ button {
     clear:both; display:block; overflow:hidden;
 }
 #content p,
-#content ul {
+#content ul,
+#content ol {
     line-height:1.6;
 }
 #primary {
