@@ -11,8 +11,8 @@ body { font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda",
 
 table, p, ul, ol, h1, h2, h3, h4, h5, h6, hr, img, pre, .block { margin-bottom:1em; }
 blockquote { margin-left:1.5em; }
-ul, ol { padding-left:1em; }
-li { margin:0; margin-left:1em; }
+ul, ol { padding-left:1.2em; }
+li { margin:0; margin-left:1.2em; }
 ul ul, ul ol, ol ul, ol ol { margin-bottom:0; }
 ol ol { list-style: lower-alpha; }
 dt { font-weight: bold; }
@@ -295,8 +295,14 @@ button {
     .inline .cke_editor_id_body {
         margin-left: 104px;
     }
-    
 
+/* Safer buttons */    
+
+button.delete {
+    background:none;
+    border:0;
+    cursor:pointer;
+}
 
 /**
  * STRUCTURE
