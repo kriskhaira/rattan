@@ -134,26 +134,11 @@ p.admin, span.admin {
  *
 **/
 
-#tabs-wrapper,
-.links,
-.terms {
-    clear:both; display:block; overflow:hidden;
+li.first {
+    padding-left:0;
 }
-ul.tabs,
-.links ul,
-.terms ul,
-ul.links {
-    padding-left: 0;
-    clear:both; display:block; overflow:hidden;
-}
-ul.tabs li,
-.links ul li,
-.terms ul li,
-ul.links li {
-    list-style: none;
+li.first a {
     margin-left: 0;
-    float: left;
-    margin-right: 1em;
 }
 
 /**
@@ -320,11 +305,6 @@ button.delete {
 #content {
     margin-bottom:30px;
     clear:both; display:block; overflow:hidden;
-}
-#content p,
-#content ul,
-#content ol {
-    line-height:1.6;
 }
 #primary {
   float: left;
