@@ -388,16 +388,22 @@ ul.admin_actions a {
   font-size: 0.9em;
 }
 
-.views-field-edit-node {
+.views-field-edit-node,
+.edit_link {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.8em;
 }
+.edit_link a,
 .views-field-edit-node a {
     opacity:0.5;
 }
+.edit_link a:hover,
 .views-field-edit-node a:hover {
     opacity:1;
+}
+
+.more_link {
 }
 
 /**
