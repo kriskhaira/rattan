@@ -1,0 +1,7 @@
+body { font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+h1, h2, h3, h4, h5, h6, legend {
+  margin-bottom: 0.4em;
+  font-family:"Helvetica Neue", "Helvetica", "FreeSans", "Gargi_1.7", "Malayalam", Arial, sans-serif;
+  font-weight: bold;
+}
+pre, code { font-family: "Consolas", "Courier", "FreeMono", "Nimbus Mono L", monospace; }

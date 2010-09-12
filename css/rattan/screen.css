@@ -7,7 +7,6 @@
 
 * { margin:0; padding:0; }
 body { color:#333; font-size: 0.8125em; }
-body { font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 table, p, ul, ol, h1, h2, h3, h4, h5, h6, hr, img, pre, .block { margin-bottom:1em; }
 blockquote { margin-left:1.5em; }
@@ -23,16 +22,10 @@ h3, legend { font-size: 1.5em; }
 h4 { font-size: 1.35em; }
 h5 { font-size: 1.24em; }
 h6 { font-size: 1.16em; }
-h1, h2, h3, h4, h5, h6, legend {
-  margin-bottom: 0.4em;
-  font-family:"Helvetica Neue", "Helvetica", "FreeSans", "Gargi_1.7", "Malayalam", Arial, sans-serif;
-  font-weight: bold;
-}
 
 a { color: blue }
 a:hover { color: red; text-decoration: none; }
 
-pre, code { font-family: "Consolas", "Courier", "FreeMono", "Nimbus Mono L", monospace; }
 pre.print_r {
     margin:100px 0;
     padding:4px;

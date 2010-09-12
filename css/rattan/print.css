@@ -1,0 +1,22 @@
+#menu1, #menu2 {
+  display: none;
+}
+
+#footer {
+    display: none;
+}
+
+hr {
+    margin-bottom: 8em;
+}
+
+/**
+ * Drupal
+ *
+**/
+
+.tabs,
+.block-locale,
+.links {
+  display: none;
+}
