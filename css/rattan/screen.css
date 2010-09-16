@@ -79,28 +79,6 @@ img.left { margin: 0 7px 2px 0; }
 /* Debugging */
 .fix { color:red; font-weight:bold; }
 
-/* Tables */
-
-table {
-  border-collapse:collapse;
-  margin-left:2px;
-}
-table,
-table td,
-table th {
-  border:1px solid #ccc;
-  padding:0.3em;
-}
-th {
-  text-align:left;
-  padding-right:10px;
-}
-thead, th, tfoot {
-    font-weight: bold;
-}
-table td, table tr, td, th {
-  vertical-align:top;
-}
 
 div.admin {
   margin-bottom:20px;
