@@ -1,3 +1,8 @@
+/**
+ * For fonts, colors and relative positioning - NO pixels!
+ *
+**/
+
 body {
   font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
