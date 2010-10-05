@@ -36,3 +36,12 @@ thead, th, tfoot {
 table td, table tr, td, th {
   vertical-align:top;
 }
+
+/**
+ * Drupal - Empty Views
+ *
+**/
+
+.view-empty {
+  opacity:0.7;
+}
