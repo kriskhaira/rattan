@@ -176,10 +176,7 @@ form fieldset {
     color: red;
     font-weight: bold;
     font-size: 90%;
-    display: block;
-    clear:both; display:block; overflow:hidden;
   }
-
 form label {
   display:block;
   font-weight:bold;
