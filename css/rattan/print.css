@@ -17,6 +17,7 @@ hr {
 
 .tabs,
 .block-locale,
-.links {
+.links,
+#search-theme-form {
   display: none;
 }
