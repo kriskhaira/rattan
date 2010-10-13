@@ -37,6 +37,15 @@ table td, table tr, td, th {
   vertical-align:top;
 }
 
+/* Active Trails */
+a.active,
+a.active-trail,
+.active > a,
+.active-trail > a {
+  color: #000;
+}
+
+
 /**
  * Drupal - Empty Views
  *
