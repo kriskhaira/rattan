@@ -95,7 +95,7 @@ p.admin, span.admin {
 /**
  * DRUPAL PANELS
  *
-**/
+** ------------------------------------- */
 
 .panel-display .panel-panel .inside {
     margin:0;
@@ -104,7 +104,7 @@ p.admin, span.admin {
 /**
  * TABS
  *
-**/
+** ------------------------------------- */
 
 li.first {
     padding-left:0;
@@ -116,7 +116,7 @@ li.first a {
 /**
  * MENU
  *
-**/
+** ------------------------------------- */
 
 .menu ul.links li {
     float: none;
@@ -125,7 +125,7 @@ li.first a {
 /**
  * FORMS
  * Anything with 'form-item' is meant for Drupal
-**/
+** ------------------------------------- */
 form { margin-bottom: 1em; }
 
 form fieldset {
@@ -261,7 +261,7 @@ button.delete {
 /**
  * STRUCTURE
  *
-**/
+** ------------------------------------- */
 
 #wrap {
   width:960px;
@@ -292,7 +292,7 @@ button.delete {
 /**
  * FOOTER
  *
-**/
+** ------------------------------------- */
 #footer {
   margin-bottom: 1em;
   clear:both; display:block; overflow:hidden;
@@ -321,7 +321,7 @@ button.delete {
 /**
  * ACTIONS
  *
-**/
+** ------------------------------------- */
 
 ul.actions {
   list-style:none; margin-left:0;
@@ -358,7 +358,7 @@ ul.admin_actions a {
 /**
  * PAGINATION
  *
-**/
+** ------------------------------------- */
 
 .pagination {
   padding:2px;
@@ -415,7 +415,7 @@ ul.admin_actions a {
 /**
  * META
  *
-**/
+** ------------------------------------- */
 
 .meta, .counter, .help {
     font-size: 80%;
@@ -426,7 +426,7 @@ ul.admin_actions a {
 /**
  * DRUPAL VIEWS AND NODES
  *
-**/
+** ------------------------------------- */
 
 .views-row,
 .node {
@@ -436,7 +436,7 @@ ul.admin_actions a {
 /**
  * FACEBOX OVERRIDE
  *
-**/
+** ------------------------------------- */
 
 #facebox table,
 #facebox table td,
@@ -447,6 +447,6 @@ ul.admin_actions a {
 /**
  * DEBUGGING PURPOSES
  *
-**/
+** ------------------------------------- */
 
 .clear { clear:both; display:block; }
