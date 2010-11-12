@@ -93,12 +93,14 @@ p.admin, span.admin {
 }
 
 /**
- * DRUPAL PANELS
+ * Drupal - Panels module
  *
 ** ------------------------------------- */
 
+/* Remove margins */
+.panel-flexible .inside,
 .panel-display .panel-panel .inside {
-    margin:0;
+  margin:0; padding:0;
 }
 
 /**
