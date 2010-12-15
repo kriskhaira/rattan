@@ -43,7 +43,7 @@ pre.print_r {
 	margin-bottom: 1em;
 	clear:both; display:block; overflow:hidden;
 	font-size: 80%;
-	font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: "Lucida Grande", "Verdana", "DejaVu Sans Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 ul#messages {
     list-style: none;
