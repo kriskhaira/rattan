@@ -1,7 +1,6 @@
-/**
- * For all media
+/* For all media
  * And for fonts on white backgrounds, colors and relative positioning - NO pixels!
-** ----------------------------- */
+------------------------------------------------------------------------------------------------- */
 
 body {
   font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -46,10 +45,8 @@ a.active-trail,
 }
 
 
-/**
- * Drupal - Empty Views
- *
-** ----------------------------- */
+/* DRUPAL - Empty Views
+------------------------------------------------------------------------------------------------- */
 
 .view-empty {
   opacity:0.7;
