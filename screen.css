@@ -258,9 +258,6 @@ button.delete {
   margin:0 auto;
   clear:both; display:block; overflow:hidden;
 }
-#header {
-  margin-bottom:20px;
-}
 #content {
     margin-bottom:30px;
     clear:both; display:block; overflow:hidden;
