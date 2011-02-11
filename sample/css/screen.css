@@ -1,0 +1,11 @@
+#wrap {
+  width:980px;
+  margin:0 auto;
+}
+
+#header,
+#content,
+#footer {
+  width:940px;
+  margin:0 auto;
+}

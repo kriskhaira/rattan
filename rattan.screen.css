@@ -254,8 +254,6 @@ button.delete {
 ------------------------------------------------------------------------------------------------- */
 
 #wrap {
-  width:980px;
-  margin:0 auto;
   clear:both; display:block; overflow:hidden;
 }
 #content {
