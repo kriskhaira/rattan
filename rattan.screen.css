@@ -196,10 +196,7 @@ button {
 
 /* Inline */
 .inline label {
-    display: block;
-    float: left;
-    width:200px;
-    text-align: right;
+    display: inline;
     margin-right:4px;  
 }
     .inline .inline_error {
@@ -222,7 +219,6 @@ button {
     .inline .checkbox input,
     .inline .formHint,
     .inline .cke_editor_id_body {
-        margin-left: 204px;
     }
     .inline_error {
         display:inline;
