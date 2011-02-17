@@ -28,7 +28,7 @@ Include your code in your HTML head section like this:
 
 For everything else, look at the example (index.html) and figure it out :)
 
-## What's with a name?
+## What's with the name?
 
 Rattan is the name for various species of climbing palms that are **sturdy, light and flexible** and are widely used around the world, especially Southeast Asia, to make furniture._
 
