@@ -11,12 +11,12 @@ This is Rattan CSS, a simple CSS framework inspired by Blueprint and other CSS f
 * Tested in Firefox, Safari, Google Chrome, IE7+
 * No bloat
 
-## Features left out deliberately
+## Excluded by design
 
 * Grid system. These things shouldn't be difficult to do in the first place. However, there *are* CSS definitions for #primary and #secondary.
 * Typographic baseline. Not worth the hassle in my opinion.
 
-## Setup Instructions
+## Setup
 
 Include your code in your HTML head section like this:
 
