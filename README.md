@@ -8,13 +8,12 @@ This is Rattan CSS, a simple CSS framework inspired by Blueprint and other CSS f
 * Browser CSS reset
 * Notice, error and message styles
 * Growing support for common form elements including those used in Django, django-uni-form and Drupal
+* Tested in Firefox, Safari, Google Chrome, IE7+
 * No bloat
-* Tested in Firefox, Safari, Google Chrome, IE8, IE6
-* The maximum layout width (which you can easily override), is 980px, instead of the common 960px to maximize the use of horizontal real estate
 
 ## Features left out deliberately
 
-* Grid system - these things shouldn't be difficult to do in the first place - but there are CSS definitions for #primary and #secondary.
+* Grid system. These things shouldn't be difficult to do in the first place. However, there *are* CSS definitions for #primary and #secondary.
 * Typographic baseline. Not worth the hassle in my opinion.
 
 ## Setup Instructions
@@ -34,4 +33,4 @@ Rattan is the name for various species of climbing palms that are **sturdy, ligh
 
 ## Bugs and feature requests
 
-Please submit bugs and feature requests in the "Issues":http://github.com/kriskhaira/rattan/issues section.
+Please submit bugs and feature requests in the [Github issues page](http://github.com/kriskhaira/rattan/issues) section.
