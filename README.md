@@ -25,12 +25,21 @@ Include your code in your HTML head section like this:
     <link type="text/css" rel="stylesheet" media="print" href="/css/rattan/rt.p.css" />
     <link type="text/css" rel="stylesheet" media="screen" href="/css/rattan/rt.s.css" />
 
-For everything else, look at the example (index.html) and figure it out :)
+For everything else, look at the example folder and figure it out :)
 
 ## What's with the name?
 
-Rattan is the name for various species of climbing palms that are **sturdy, light and flexible** and are widely used around the world, especially Southeast Asia, to make furniture._
+Rattan is the name for various species of climbing palms that are **sturdy, light and flexible** and are widely used around the world, especially Southeast Asia, to make furniture.
 
 ## Bugs and feature requests
 
 Please submit bugs and feature requests in the [Github issues page](http://github.com/kriskhaira/rattan/issues) section.
+
+## Contribute
+
+Like this? Fork this, make a pull request and I'll probably make you a maintainer!
+
+## Contact
+
+Email: kris@kedairuncit.org
+Skype: kriskhaira
