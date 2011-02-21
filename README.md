@@ -6,6 +6,8 @@ This is Rattan CSS, a simple CSS framework inspired by Blueprint and other CSS f
 
 * A stylesheet for printing
 * Browser CSS reset
+* Table reset
+* Nice fonts for Ubuntu
 * Notice, error and message styles
 * Growing support for common form elements including those used in Django, django-uni-form and Drupal
 * Tested in Firefox, Safari, Google Chrome, IE7+
