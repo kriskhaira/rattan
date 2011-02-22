@@ -23,14 +23,13 @@ table,
 table td,
 table th {
   border:1px solid #ccc;
-  padding:0.3em;
+  padding:0.3em 0;
 }
 th {
   text-align:left;
-  padding-right:10px;
 }
 thead, th, tfoot {
-    font-weight: bold;
+  font-weight: bold;
 }
 table td, table tr, td, th {
   vertical-align:top;
