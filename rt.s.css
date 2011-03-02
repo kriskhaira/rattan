@@ -396,11 +396,11 @@ ul.admin_actions a {
 }
 
 
-/* DRUPAL VIEWS AND NODES
+/* ENTRIES/NODES
 ------------------------------------------------------------------------------------------------- */
-
 .views-row,
-.node {
+.node,
+.entry {
   margin-bottom: 2em;
 }
 
