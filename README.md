@@ -1,6 +1,6 @@
 ## Rattan CSS Framework
 
-This is Rattan CSS, a simple CSS framework inspired by Blueprint and other CSS frameworks but minus the fat. 
+This is Rattan CSS, a simple CSS framework for getting started quickly with theming.
 
 ## Features
 
@@ -40,6 +40,10 @@ Please submit bugs and feature requests in the [Github issues page](http://githu
 ## Contribute
 
 Like this? Fork this, make a pull request and I'll probably make you a maintainer!
+
+## Thanks
+
+Inspired by various frameworks and themes including Drupal Zen, Blueprint CSS and Eric Meyer's reset.css file.
 
 ## Contact
 
