@@ -23,9 +23,8 @@ This is Rattan CSS, a simple CSS framework for getting started quickly with them
 Include your code in your HTML head section like this:
 
     <!-- Rattan CSS -->
-    <link type="text/css" rel="stylesheet" media="all" href="/css/rattan/rt.a.css" />
-    <link type="text/css" rel="stylesheet" media="print" href="/css/rattan/rt.p.css" />
-    <link type="text/css" rel="stylesheet" media="screen" href="/css/rattan/rt.s.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="/css/rattan/rt.all.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="/css/rattan/rt.print.css" />
 
 For everything else, look at the example folder and figure it out :)
 
