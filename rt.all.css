@@ -462,7 +462,9 @@ ul.admin_actions a {
 /* META
 ------------------------------------------------------------------------------------------------- */
 
-.meta, .counter, .help {
+.meta, .counter, .help,
+.submitted /* drupal */
+{
   font-size: 90%;
   color: #777;
 }
