@@ -9,27 +9,19 @@ body {
 }
 #page-wrapper,
 #wrap {
-  /* Use one of these declarations */
-  
-  /* Use a 14px base font size with a 21px line height */
-  font-size: 0.875em; /* 16px x .875 = 14px */
-  line-height: 1.5em; /* 14px x 1.5 = 21px */
-
-  /* Use a 11px base font size with a 18px line height */
-  font-size: 0.72em; /* 16px x .75 = 12px */
-  line-height: 1.5em; /* 12px x 1.5 = 18px */
-
-  /* Use a 12px base font size with a 18px line height */
   font-size: 0.75em; /* 16px x .75 = 12px */
-  line-height: 1.5em; /* 12px x 1.5 = 18px */
-
+  line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6, legend {
   margin-bottom: 0.4em;
   font-weight: bold;
+  line-height: 120%;
 }
 pre, code { font-family: "Consolas", "Courier", "FreeMono", "Nimbus Mono L", monospace; }
 
+p {
+  margin-top:0;
+}
 
 /* Tables */
 
@@ -465,9 +457,7 @@ button.delete {
 /* META
 ------------------------------------------------------------------------------------------------- */
 
-.meta, .counter, .help,
-.submitted /* drupal */
-{
+.meta, .counter, .help, .submitted {
   font-size: 90%;
   color: #777;
 }
@@ -475,9 +465,7 @@ button.delete {
 
 /* ENTRIES/NODES
 ------------------------------------------------------------------------------------------------- */
-.views-row,
-.node,
-.entry {
+.views-row, .node, .entry {
   margin-bottom: 2em;
 }
 
