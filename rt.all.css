@@ -6,16 +6,16 @@ body {
   font-family: "Lucida Grande", "Verdana", "Gargi_1.7", "Jamrul", "Garuda", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color:#333;
   font-size:100%;
+  line-height:110%;
 }
 #page-wrapper,
 #wrap {
   font-size: 0.75em; /* 16px x .75 = 12px */
-  line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6, legend {
   margin-bottom: 0.4em;
   font-weight: bold;
-  line-height: 120%;
+  line-height:110%;
 }
 pre, code { font-family: "Consolas", "Courier", "FreeMono", "Nimbus Mono L", monospace; }
 
